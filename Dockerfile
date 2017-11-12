@@ -32,7 +32,7 @@ http://download.eclipse.org/releases/oxygen/ \
 -installIUs org.sf.feeling.decompiler.feature.group,org.eclipse.linuxtools.valgrind.feature.group,\
 jsonedit-feature.feature.group,\
 org.eclipse.team.svn.feature.group,\
-org.polarion.eclipse.team.svn.connector.feature.group,
+org.polarion.eclipse.team.svn.connector.feature.group,\
 org.eclipse.cdt.testsrunner.feature.feature.group,\
 org.polarion.eclipse.team.svn.connector.svnkit18.feature.group\
 -vmargs \
