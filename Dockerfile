@@ -33,9 +33,7 @@ jsonedit-feature.feature.group,\
 org.eclipse.team.svn.feature.group,\
 org.polarion.eclipse.team.svn.connector.feature.group,\
 org.eclipse.cdt.testsrunner.feature.feature.group,\
-org.polarion.eclipse.team.svn.connector.svnkit18.feature.group\
--vmargs \
--Djava.net.preferIPv4Stack=true 
+org.polarion.eclipse.team.svn.connector.svnkit18.feature.group
 
 RUN chown -R eclipse:eclipse $INSTALLATION_DIR/eclipse &&\
   chmod -R 775 $INSTALLATION_DIR/eclipse
