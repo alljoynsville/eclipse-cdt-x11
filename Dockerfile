@@ -35,7 +35,6 @@ org.polarion.eclipse.team.svn.connector.feature.group,\
 org.eclipse.cdt.testsrunner.feature.feature.group,\
 org.polarion.eclipse.team.svn.connector.svnkit18.feature.group\
 -vmargs \
--Declipse.p2.mirrors=true \
 -Djava.net.preferIPv4Stack=true 
 
 RUN chown -R eclipse:eclipse $INSTALLATION_DIR/eclipse &&\
