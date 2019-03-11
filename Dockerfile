@@ -1,8 +1,9 @@
-from ubuntu:artful
+from ubuntu:bionic
 
 MAINTAINER alljoynsville
 
-ENV DOWNLOAD_URL http://download.eclipse.org/technology/epp/downloads/release/oxygen/R/eclipse-cpp-oxygen-R-linux-gtk-x86_64.tar.gz
+ENV DOWNLOAD_URL http://mirrors.syringanetworks.net/eclipse/technology/epp/downloads/release/2018-12/R/eclipse-cpp-2018-12-R-linux-gtk-x86_64.tar.gz
+ENV eclipse_SHA512 a7fff7774d7d95a5469de07d5bb59e3bc272136cdd6226c04aa8c24a56dabde9de0bcbe050d25d9b91acca238e9387171c216d84633d090cf1487ef3ec645f5c
 ENV INSTALLATION_DIR /usr/local
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get -yqq update \
